@@ -43,5 +43,18 @@ This site is a static website and can be hosted on:
 - Vercel
 - any static hosting service
 
+### Vercel settings
+When importing this repository in Vercel, set **Root Directory** to
+`Malligai/Malligai-advertising-agency-main` (the folder containing
+`index.html`). Use these settings:
+
+- **Framework Preset:** Other
+- **Build Command:** leave empty
+- **Output Directory:** `.`
+- **Install Command:** leave empty
+
+The included `vercel.json` configures the static site URLs. No build step is
+required.
+
 ## License
 This project is for demonstration and portfolio use.
